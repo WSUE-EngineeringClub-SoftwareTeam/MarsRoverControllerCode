@@ -1,5 +1,5 @@
 /*
- * RoverHeader.h
+ *  RoverHeader.h
  *
  *  Created on: Jan 25, 2017
  *      Author: Mark Walsh
@@ -45,6 +45,16 @@
  * R Left/Right 2        
  * 
  */
+
+// Motor Controller Channel
+#define ROVER_CONTROL 128
+#define BOOM_CONTROL 129
+#define BASE_CONTROL 129
+#define CLAW_CONTROL 130
+#define ELBOW_CONTROL 130
+#define WRIST_PITCH_CONTROL 131
+#define WRIST_ROTATION_CONTROL 131
+
 
 // short hand for native data types
 #define uint unsigned int
@@ -151,3 +161,4 @@ typedef struct _MotorControlStatus
 
 
 #endif /* ROVERHEADER_H_ */
+
